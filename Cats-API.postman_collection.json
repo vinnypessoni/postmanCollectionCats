@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "3f3ed15e-adbf-4dde-b136-0180c12c1cff",
+		"name": "Cats API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get random fact about cats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cat-fact.herokuapp.com/facts/random",
+					"protocol": "https",
+					"host": [
+						"cat-fact",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"facts",
+						"random"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
